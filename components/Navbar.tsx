@@ -21,9 +21,9 @@ export default function Navbar() {
           About
         </a>
 
-        <a href="#services">
+        {/* <a href="#services">
           Services
-        </a>
+        </a> */}
 
         <a href="#portfolio">
           Portfolio
