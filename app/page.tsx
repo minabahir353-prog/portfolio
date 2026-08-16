@@ -235,12 +235,6 @@ export default function Home() {
       ========================================= */}
 
       <Navbar
-        cartItems={cartItems}
-        totalItems={totalItems}
-        totalPrice={totalPrice}
-        onRemove={decreaseQuantity}
-        onRemoveAll={removeAllFromCart}
-        onIncrease={increaseQuantity}
       />
 
       {/* =========================================
