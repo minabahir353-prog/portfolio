@@ -16,63 +16,63 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Brand Identity",
-    category: "Branding",
-    description:
-      "Complete visual identity including logo, colors, typography and brand applications.",
-    cover: "/projects/branding/cover.png",
-    images: [
-      "/projects/branding/1.jpg",
-      "/projects/branding/2.jpg",
-      "/projects/branding/3.jpg",
-      "/projects/branding/4.jpg",
-    ],
-  },
-
-  {
-    id: 2,
     title: "Social Media Campaign",
     category: "Social Media",
     description:
       "Creative social media designs created to build a strong visual presence.",
-    cover: "/projects/social/cover.jpg",
+    cover: "/projects/Soical1/0.jpg",
     images: [
-      "/projects/social/1.jpg",
-      "/projects/social/2.jpg",
-      "/projects/social/3.jpg",
-      "/projects/social/4.jpg",
+      "/projects/Soical1/1.jpg",
+      "/projects/Soical1/2.jpg",
+      "/projects/Soical1/3.jpg",
+      "/projects/Soical1/4.jpg",
+      "/projects/Soical1/5.jpg",
+      "/projects/Soical1/7.jpg",
+    ],
+  },
+
+
+  {
+    id: 2,
+    title: "Brand Identity",
+    category: "Branding",
+    description:
+      "Complete visual identity including logo, colors, typography and brand applications.",
+    cover: "/projects/branding/0.jpg",
+    images: [
+      "/projects/branding/1.jpg",
+      "/projects/branding/2.png",
+      "/projects/branding/3.png",
+      "/projects/branding/4.jpg",
+      "/projects/branding/5.jpg",
+      "/projects/branding/6.jpg",
+      "/projects/branding/7.jpg",
+      "/projects/branding/8.jpg",
+      "/projects/branding/9.jpg",
+      "/projects/branding/10.jpg",
+      "/projects/branding/11.jpg",
+      "/projects/branding/12.png",
+      "/projects/branding/13.png",
     ],
   },
 
   {
     id: 3,
-    title: "Print Design",
-    category: "Print",
+    title: "Social Media Campaign",
+    category: "Social Media",
     description:
-      "Professional print materials designed for marketing campaigns and businesses.",
-    cover: "/projects/print/cover.jpg",
+      "Creative social media designs created to build a strong visual presence.",
+    cover: "/projects/Soical2/COVER.jpg",
     images: [
-      "/projects/print/1.jpg",
-      "/projects/print/2.jpg",
-      "/projects/print/3.jpg",
-      "/projects/print/4.jpg",
+      "/projects/Soical2/1.jpg",
+      "/projects/Soical2/2.jpg",
+      "/projects/Soical2/3.jpg",
+      "/projects/Soical2/4.jpg",
+      "/projects/Soical2/5.jpg",
+      
     ],
   },
 
-  {
-    id: 4,
-    title: "Marketing Campaign",
-    category: "Marketing",
-    description:
-      "A complete visual campaign designed to communicate the brand message creatively.",
-    cover: "/projects/marketing/cover.jpg",
-    images: [
-      "/projects/marketing/1.jpg",
-      "/projects/marketing/2.jpg",
-      "/projects/marketing/3.jpg",
-      "/projects/marketing/4.jpg",
-    ],
-  },
 ];
 
 export default function ProjectPage() {

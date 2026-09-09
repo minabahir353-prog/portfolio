@@ -91,7 +91,7 @@ export default function Footer() {
           <h4>Follow Me</h4>
 
           <a
-            href="#"
+            href="https://www.instagram.com/mina_bahir35/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,27 +99,27 @@ export default function Footer() {
           </a>
 
           <a
-            href="#"
+            href="https://www.behance.net/minabahir"
             target="_blank"
             rel="noopener noreferrer"
           >
             Behance ↗
           </a>
 
-          <a
+          {/* <a
             href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn ↗
-          </a>
+          </a> */}
 
           <a
-            href="#"
+            href="https://www.facebook.com/mina.bahir.58"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dribbble ↗
+            Facebook ↗
           </a>
 
         </div>

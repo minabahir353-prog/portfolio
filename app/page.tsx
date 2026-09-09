@@ -716,10 +716,36 @@ export default function Home() {
 
       <div className="contact-socials">
 
+          {/* WHATSAPP */}
+
+        <a
+          href="https://wa.me/201554497569"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-btn whatsapp"
+          aria-label="WhatsApp"
+        >
+
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path d="M21 11.5a8.38 8.38 0 0 1-9 8.5 8.6 8.6 0 0 1-4.1-1.05L3 20l1.1-4.6A8.4 8.4 0 0 1 3 11.2 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5Z" />
+
+            <path d="M8.5 9.5c.3-.6.6-.6 1-.6h.4c.2 0 .4.1.5.4l.7 1.5c.1.2.1.4-.1.6l-.5.6c.7 1.2 1.6 2.1 2.8 2.8l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5v.4c0 .4 0 .7-.6 1-.5.3-1.1.4-1.7.2-2.7-.7-5.4-3.4-6.1-6.1-.2-.6-.1-1.2.2-1.7Z" />
+          </svg>
+
+          <span>WhatsApp</span>
+
+        </a>
+
+
         {/* FACEBOOK */}
 
         <a
-          href="#"
+          href="https://www.facebook.com/mina.bahir.58"
           target="_blank"
           rel="noopener noreferrer"
           className="social-btn facebook"
@@ -741,7 +767,7 @@ export default function Home() {
         {/* INSTAGRAM */}
 
         <a
-          href="#"
+          href="https://www.instagram.com/mina_bahir35/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-btn instagram"
@@ -785,7 +811,7 @@ export default function Home() {
         {/* BEHANCE */}
 
         <a
-          href="#"
+          href="https://www.behance.net/minabahir"
           target="_blank"
           rel="noopener noreferrer"
           className="social-btn behance"
@@ -801,7 +827,7 @@ export default function Home() {
 
         {/* LINKEDIN */}
 
-        <a
+        {/* <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
@@ -818,33 +844,10 @@ export default function Home() {
 
           <span>LinkedIn</span>
 
-        </a>
+        </a> */}
 
 
-        {/* WHATSAPP */}
-
-        <a
-          href="https://wa.me/201554497569"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-btn whatsapp"
-          aria-label="WhatsApp"
-        >
-
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M21 11.5a8.38 8.38 0 0 1-9 8.5 8.6 8.6 0 0 1-4.1-1.05L3 20l1.1-4.6A8.4 8.4 0 0 1 3 11.2 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5Z" />
-
-            <path d="M8.5 9.5c.3-.6.6-.6 1-.6h.4c.2 0 .4.1.5.4l.7 1.5c.1.2.1.4-.1.6l-.5.6c.7 1.2 1.6 2.1 2.8 2.8l.6-.5c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5v.4c0 .4 0 .7-.6 1-.5.3-1.1.4-1.7.2-2.7-.7-5.4-3.4-6.1-6.1-.2-.6-.1-1.2.2-1.7Z" />
-          </svg>
-
-          <span>WhatsApp</span>
-
-        </a>
+     
 
       </div>
 
